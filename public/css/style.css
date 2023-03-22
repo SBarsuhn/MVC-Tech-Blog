@@ -1,0 +1,54 @@
+:root {
+    overflow:hidden;
+    background-image: url(../images/green.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+}
+
+.site-header {
+    color: rgb(204, 204, 204);
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+nav {
+    position: fixed;
+    font-weight: bolder;
+    font-size: 35px;
+    right: 25px;
+    top:5px;
+    
+}
+
+li {
+    color: rgb(204, 204, 204);
+    margin-left: 30px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    border: solid;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color:transparent;
+    transition: .2s ease-in;
+
+}
+
+a:hover {
+    background-color:rgb(204, 204, 204);
+    color:rgb(43, 124, 82);
+}
