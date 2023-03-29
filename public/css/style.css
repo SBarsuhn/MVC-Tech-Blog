@@ -52,3 +52,8 @@ a:hover {
     background-color:rgb(204, 204, 204);
     color:rgb(43, 124, 82);
 }
+
+.orange {
+    color: orange;
+    font-size: 32px;
+}

@@ -11,12 +11,18 @@
     <header>
         <h1 class="site-header">TECH-BLOG</h1>
     <nav><ul>
-        <li><a>HOME</a></li>
-        <li><a>DASHBOARD</a></li>
-        <li><a>LOGOUT</a></li>
+        <li><a href="/">HOME</a></li>
+        {{#if loggedIn}}
+        <li><a href="/post">POST</a></li>
+        <li><a id="logout">LOGOUT</a></li>
+        {{else}}
+        <li><a href="/login">LOGIN</a></li>
+        {{/if}}  
     </ul></nav>
     </header>
+    <main>
     {{{body}}}
-    
+    </main>
 </body>
 </html>
+<script src="/js/logout.js"></script>
